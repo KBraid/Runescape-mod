@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableCopper</defName>
+    <label>copper rocks</label>
+    <description>A rocky outcrop.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(135,109,76)</color>
+      <colorTwo>(222,127,57)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>CopperOre</mineableThing>
+      <mineableYield>10</mineableYield>
+      <mineableScatterCommonality>0.8</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>2~20</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableTin</defName>
+    <label>tin rocks</label>
+    <description>A rocky outcrop.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(135,109,76)</color>
+      <colorTwo>(139,130,129)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>TinOre</mineableThing>
+      <mineableYield>10</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~18</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableBlurite</defName>
+    <label>blurite rocks</label>
+    <description>A rocky outcrop.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(135,109,76)</color>
+      <colorTwo>(143,144,216)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>BluriteOre</mineableThing>
+      <mineableYield>10</mineableYield>
+      <mineableScatterCommonality>0.1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>4</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableSteel</defName>
+    <label>iron rocks</label>
+    <description>A rocky outcrop.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(135,109,76)</color>
+      <colorTwo>(80,48,36)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>177</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>IronOre</mineableThing>
+      <mineableYield>10</mineableYield>
+      <mineableScatterCommonality>1.1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>2~16</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableSilver</defName>
+    <label>silver rocks</label>
+    <description>A rocky outcrop.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(135,109,76)</color>
+      <colorTwo>(170,170,182)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>434</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SilverOre</mineableThing>
+      <mineableYield>10</mineableYield>
+      <mineableScatterCommonality>0.4</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>3~6</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableCoal</defName>
+    <label>coal rocks</label>
+    <description>A rocky outcrop.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(135,109,76)</color>
+      <colorTwo>(60,60,40)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>624</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>CoalOre</mineableThing>
+      <mineableYield>10</mineableYield>
+      <mineableScatterCommonality>1.2</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>3~37</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableGold</defName>
+    <label>gold rocks</label>
+    <description>A rocky outcrop.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(135,109,76)</color>
+      <colorTwo>(218,178,26)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>753</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>GoldOre</mineableThing>
+      <mineableYield>10</mineableYield>
+      <mineableScatterCommonality>0.6</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>2~7</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineablePlasteel</defName>
+    <label>mithril rocks</label>
+    <description>A rocky outcrop.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(135,109,76)</color>
+      <colorTwo>(76,76,112)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>883</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>MithrilOre</mineableThing>
+      <mineableYield>10</mineableYield>
+      <mineableScatterCommonality>0.9</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~19</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableUranium</defName>
+    <label>adamantite rocks</label>
+    <description>A rocky outcrop.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(135,109,76)</color>
+      <colorTwo>(77,98,78)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1423</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>AdamantiteOre</mineableThing>
+      <mineableYield>10</mineableYield>
+      <mineableScatterCommonality>0.8</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~8</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>MineableJade</defName>
+    <label>runite rocks</label>
+    <description>A rocky outcrop.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(135,109,76)</color>
+      <colorTwo>(81,109,120)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1600</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>RuniteOre</mineableThing>
+      <mineableYield>10</mineableYield>
+      <mineableScatterCommonality>0.1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>2</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+</Defs>

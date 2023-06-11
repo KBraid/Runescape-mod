@@ -1,0 +1,1157 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--=============== Pure stuffs: Basics ====================-->
+
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Silver</defName>
+    <label>Coins</label>
+    <description>Lovely money!</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Coin</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>First</resourceReadoutPriority>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+    <statBases>
+      <MarketValue>1</MarketValue>
+      <Mass>0.0</Mass>
+    </statBases>
+    <stackLimit>10000</stackLimit>
+    <burnableByRecipe>false</burnableByRecipe>
+    <possessionCount>40</possessionCount>
+    <allowedArchonexusCount>1000</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>CopperOre</defName>
+    <label>copper ore</label>
+    <description>This needs refining.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Ore/Copper_ore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>3</MarketValue>
+      <Mass>2.267</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>1.6</deepCommonality>
+    <deepCountPerPortion>10</deepCountPerPortion>
+    <deepLumpSizeRange>1~11</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>TinOre</defName>
+    <label>tin ore</label>
+    <description>This needs refining.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Ore/Tin_ore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>3</MarketValue>
+      <Mass>2.267</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>1.7</deepCommonality>
+    <deepCountPerPortion>10</deepCountPerPortion>
+    <deepLumpSizeRange>1~11</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>BluriteOre</defName>
+    <label>blurite ore</label>
+    <description>Definitely blue.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Ore/Blurite_ore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>3</MarketValue>
+      <Mass>2.267</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>IronOre</defName>
+    <label>iron ore</label>
+    <description>This needs refining.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Ore/Iron_ore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>17</MarketValue>
+      <Mass>2.267</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>3.1</deepCommonality>
+    <deepCountPerPortion>10</deepCountPerPortion>
+    <deepLumpSizeRange>1~26</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>SilverOre</defName>
+    <label>silver ore</label>
+    <description>This needs refining.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Ore/Silver_ore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>75</MarketValue>
+      <Mass>2.267</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>1.4</deepCommonality>
+    <deepCountPerPortion>10</deepCountPerPortion>
+    <deepLumpSizeRange>1~12</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>CoalOre</defName>
+    <label>coal</label>
+    <description>This needs refining.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Ore/Coal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>45</MarketValue>
+      <Mass>2.267</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>3.8</deepCommonality>
+    <deepCountPerPortion>10</deepCountPerPortion>
+    <deepLumpSizeRange>1~51</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>GoldOre</defName>
+    <label>gold ore</label>
+    <description>This needs refining.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Ore/Gold_ore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>150</MarketValue>
+      <Mass>2.267</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>1.3</deepCommonality>
+    <deepCountPerPortion>10</deepCountPerPortion>
+    <deepLumpSizeRange>1~14</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>MithrilOre</defName>
+    <label>mithril ore</label>
+    <description>This needs refining.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Ore/Mithril_ore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>162</MarketValue>
+      <Mass>1.814</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>2.1</deepCommonality>
+    <deepCountPerPortion>10</deepCountPerPortion>
+    <deepLumpSizeRange>1~16</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>AdamantiteOre</defName>
+    <label>adamantite ore</label>
+    <description>This needs refining.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Ore/Adamantite_ore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>400</MarketValue>
+      <Mass>2.721</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>1.9</deepCommonality>
+    <deepCountPerPortion>10</deepCountPerPortion>
+    <deepLumpSizeRange>1~13</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>RuniteOre</defName>
+    <label>runite ore</label>
+    <description>This needs refining.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Ore/Runite_ore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>3200</MarketValue>
+      <Mass>2.267</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>1.2</deepCommonality>
+    <deepCountPerPortion>10</deepCountPerPortion>
+    <deepLumpSizeRange>1~4</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Bronze</defName>
+    <label>bronze bar</label>
+    <description>It's a bar of bronze.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Bar/Bronze_bar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>8</MarketValue>
+      <Mass>1.814</Mass>
+      <StuffPower_Armor_Sharp>1.21</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>1.19</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.93</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>1.01</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.03</BluntDamageMultiplier>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <slagDef>ChunkSlagSteel</slagDef>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <stuffAdjective>bronze</stuffAdjective>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>1.00</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <color>(91,70,42)</color>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statFactors>
+        <MaxHitPoints>1</MaxHitPoints>
+        <Beauty>1</Beauty>
+        <Flammability>0.4</Flammability>
+      </statFactors>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Blurite</defName>
+    <label>blurite bar</label>
+    <description>It's a bar of blurite.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Bar/Blurite_bar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>18</MarketValue>
+      <Mass>1.814</Mass>
+      <StuffPower_Armor_Sharp>1.25</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>1.24</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.93</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>1.03</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.05</BluntDamageMultiplier>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <slagDef>ChunkSlagSteel</slagDef>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <stuffAdjective>blurite</stuffAdjective>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>1.00</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <color>(143,144,216)</color>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statFactors>
+        <MaxHitPoints>1</MaxHitPoints>
+        <Beauty>1</Beauty>
+        <Flammability>0</Flammability>
+      </statFactors>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Iron</defName>
+    <label>iron bar</label>
+    <description>It's a bar of iron.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Bar/Iron_bar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>28</MarketValue>
+      <Mass>1.814</Mass>
+      <StuffPower_Armor_Sharp>1.29</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>1.29</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.93</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>1.05</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.07</BluntDamageMultiplier>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <slagDef>ChunkSlagSteel</slagDef>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <stuffAdjective>iron</stuffAdjective>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>1.00</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <color>(99,92,91)</color>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statFactors>
+        <MaxHitPoints>1.1</MaxHitPoints>
+        <Beauty>1</Beauty>
+        <Flammability>0.4</Flammability>
+      </statFactors>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>SilverBar</defName>
+    <label>siver bar</label>
+    <description>It's a bar of silver.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Bar/Silver_bar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MarketValue>150</MarketValue>
+      <Mass>1.814</Mass>
+      <StuffPower_Armor_Sharp>0</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>0</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>0</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <possessionCount>5</possessionCount>
+    <stuffProps>
+      <stuffAdjective>silver</stuffAdjective>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>0.02</commonality>
+      <color>(168,168,180)</color>
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>20</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.6</MaxHitPoints>
+        <Flammability>0.4</Flammability>
+        <Beauty>4</Beauty>
+      </statFactors>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <allowedArchonexusCount>100</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Steel</defName>
+    <label>steel bar</label>
+    <description>It's a bar of steel.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Bar/Steel_bar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>100</MarketValue>
+      <Mass>1.814</Mass>
+      <StuffPower_Armor_Sharp>1.45</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>1.46</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.93</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>1.15</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.18</BluntDamageMultiplier>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <slagDef>ChunkSlagSteel</slagDef>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <stuffAdjective>steel</stuffAdjective>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>1.00</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <color>(144,134,134)</color>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statFactors>
+        <MaxHitPoints>1.2</MaxHitPoints>
+        <Beauty>1</Beauty>
+        <Flammability>0.4</Flammability>
+      </statFactors>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Gold</defName>
+    <label>gold bar</label>
+    <description>It's a bar of gold.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Bar/Gold_bar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MarketValue>300</MarketValue>
+      <RoyalFavorValue>0.015</RoyalFavorValue>
+      <Mass>1.814</Mass>
+      <StuffPower_Armor_Sharp>0</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>0</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>0</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <possessionCount>5</possessionCount>
+    <stuffProps>
+      <stuffAdjective>gold</stuffAdjective>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>0.02</commonality>
+      <color>(216,176,26)</color>
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>20</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.6</MaxHitPoints>
+        <Flammability>0.4</Flammability>
+        <Beauty>4</Beauty>
+      </statFactors>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <allowedArchonexusCount>100</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Plasteel</defName>
+    <label>mithril bar</label>
+    <description>It's a bar of mithril.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Bar/Mithril_bar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MarketValue>300</MarketValue>
+      <Mass>1.587</Mass>
+      <StuffPower_Armor_Sharp>1.65</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>1.66</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.94</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>1.33</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.39</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <stuffAdjective>mithril</stuffAdjective>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>0.05</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <color>(76,76,112)</color>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statFactors>
+        <MaxHitPoints>1.5</MaxHitPoints>
+        <Beauty>1</Beauty>
+        <Flammability>0</Flammability>
+      </statFactors>
+    </stuffProps>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Uranium</defName>
+    <label>adamantite bar</label>
+    <description>It's a bar of adamantite.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Bar/Adamantite_bar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>640</MarketValue>
+      <Mass>2.041</Mass>
+      <StuffPower_Armor_Sharp>1.91</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>1.93</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.94</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>1.65</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.84</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <minRewardCount>10</minRewardCount>
+    <stuffProps>
+      <stuffAdjective>adamant</stuffAdjective>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>0.05</commonality>
+      <color>(80,100,80)</color>
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statFactors>
+        <MaxHitPoints>2</MaxHitPoints>
+        <Flammability>0.0</Flammability>
+      </statFactors>
+    </stuffProps>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Runite</defName>
+    <label>runite bar</label>
+    <description>It's a bar of runite.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Bar/Runite_bar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MarketValue> 5000</MarketValue>
+      <Mass>1.814</Mass>
+      <StuffPower_Armor_Sharp>1.65</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>1.66</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.94</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>1.33</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.39</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <stuffAdjective>rune</stuffAdjective>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>0.02</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <color>(81,109,120)</color>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statFactors>
+        <MaxHitPoints>2.5</MaxHitPoints>
+        <Beauty>1</Beauty>
+        <Flammability>0</Flammability>
+      </statFactors>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Jade</defName>
+    <label>jade</label>
+    <description>A hard, green stone. Because of its beauty and rarity, jade is often used for ornaments and decorations. Its hardness and density also makes it a good material for blunt weapons.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Jade</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>5</MarketValue>
+      <Mass>0.5</Mass>
+      <StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.45</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.54</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <BluntDamageMultiplier>1.5</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>0.5</deepCommonality>
+    <deepCountPerPortion>15</deepCountPerPortion>
+    <deepLumpSizeRange>1~4</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>0.05</commonality>
+      <color>(85,118,69)</color>
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>10</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>2.5</MaxHitPoints>
+        <Beauty>2.5</Beauty>
+        <Flammability>0</Flammability>
+      </statFactors>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+
+
+
+  
+  
+
+
+
+  <!--=============== Pure stuffs: Fabric, leather, etc  ====================-->
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Cloth</defName>
+    <label>cloth</label>
+    <description>Cloth woven from organic fibers.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Cloth</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(162,157,152)</color>
+    </graphicData>
+    <statBases>
+      <StuffPower_Armor_Sharp>0.36</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.18</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>18</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>18</StuffPower_Insulation_Heat>
+      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>1.5</MarketValue>
+      <Mass>0.026</Mass>
+      <Flammability>1.2</Flammability>
+      <DeteriorationRate>4</DeteriorationRate>
+    </statBases>
+    <burnableByRecipe>true</burnableByRecipe>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <minRewardCount>30</minRewardCount>
+    <stuffProps>
+      <statFactors>
+        <Flammability>1.2</Flammability>
+        <Beauty>1</Beauty>
+      </statFactors>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <color>(162,157,152)</color>
+      <commonality>1.4</commonality>
+      <allowColorGenerators>true</allowColorGenerators>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+    <comps>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
+    </comps>
+    <colorGeneratorInTraderStock Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>5</weight>
+          <only>(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <min>(0.3,0.3,0.3,1)</min>
+          <max>(0.9,0.9,0.9,1)</max>
+        </li>
+        <li>
+          <weight>5</weight>
+          <only>(0.9,0.9,0.9,1)</only>
+        </li>
+      </options>
+    </colorGeneratorInTraderStock>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Synthread</defName>
+    <label>synthread</label>
+    <description>Spacer-tech synthetic fabric designed for making ordinary clothes. It is soft, light, strong, and insulates well.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Synthread</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <MarketValue>4</MarketValue>
+      <Mass>0.025</Mass>
+      <Flammability>0.7</Flammability>
+      <DeteriorationRate>3</DeteriorationRate>
+      <StuffPower_Armor_Sharp>0.94</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.26</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.90</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>22</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>22</StuffPower_Insulation_Heat>
+    </statBases>
+    <burnableByRecipe>true</burnableByRecipe>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <minRewardCount>30</minRewardCount>
+    <stuffProps>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <commonality>0.15</commonality>
+      <color>(174,219,228)</color>
+      <statFactors>
+        <Flammability>0.7</Flammability>
+        <MaxHitPoints>1.3</MaxHitPoints>
+        <Beauty>2.3</Beauty>
+      </statFactors>
+    </stuffProps>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>DevilstrandCloth</defName>
+    <label>devilstrand</label>
+    <description>Fabric spun from microfibers extracted from devilstrand mushrooms. It is very tough, good at insulating, and protects exceptionally well against flame.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Devilstrand</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>5.5</MarketValue>
+      <Mass>0.032</Mass>
+      <Flammability>0.4</Flammability>
+      <DeteriorationRate>3</DeteriorationRate>
+      <StuffPower_Armor_Sharp>1.40</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.36</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>3.00</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>24</StuffPower_Insulation_Heat>
+    </statBases>
+    <burnableByRecipe>true</burnableByRecipe>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <minRewardCount>30</minRewardCount>
+    <stuffProps>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <commonality>0.20</commonality>
+      <color>(180,60,60)</color>
+      <statFactors>
+        <Flammability>0.4</Flammability>
+        <MaxHitPoints>1.3</MaxHitPoints>
+        <Beauty>3.2</Beauty>
+      </statFactors>
+    </stuffProps>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+    <comps>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
+    </comps>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Hyperweave</defName>
+    <label>hyperweave</label>
+    <description>Nano-fibers woven into sheets molecule-by-molecule using specialized production mechanites. While it flexes freely most of the time, it stiffens to absorb blows as they land, and is incredibly difficult to break. The secrets of its production are known only to the most advanced glitterworld cultures.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Hyperweave</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <MarketValue>9</MarketValue>
+      <Mass>0.038</Mass>
+      <Flammability>0.4</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+      <StuffPower_Armor_Sharp>2.00</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.54</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>2.88</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>26</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+    </statBases>
+    <burnableByRecipe>true</burnableByRecipe>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <minRewardCount>30</minRewardCount>
+    <stuffProps>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <commonality>0.10</commonality>
+      <color>(0,106,126)</color>
+      <statFactors>
+        <Flammability>0.4</Flammability>
+        <MaxHitPoints>2.4</MaxHitPoints>
+        <Beauty>5.5</Beauty>
+      </statFactors>
+    </stuffProps>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags><li>RewardStandardCore</li></thingSetMakerTags>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <!--=====================================================================-->
+  <!--=============================== Wool ================================-->
+  <!--=====================================================================-->
+
+  <ThingDef ParentName="ResourceBase" Name="WoolBase" Abstract="True">
+    <stackLimit>100</stackLimit>
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <MarketValue>2.7</MarketValue>
+      <Mass>0.028</Mass>
+      <Flammability>0.4</Flammability>
+      <DeteriorationRate>3.4</DeteriorationRate>
+      <StuffPower_Armor_Sharp>0.36</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.00</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1.10</StuffPower_Armor_Heat>
+    </statBases>
+    <burnableByRecipe>true</burnableByRecipe>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <minRewardCount>30</minRewardCount>
+    <stuffProps>
+      <commonality>0.12</commonality>
+      <statFactors>
+        <Flammability>1.7</Flammability>
+        <Beauty>1.5</Beauty>
+      </statFactors>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+    <thingCategories>
+      <li>Wools</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Item/Resource/Wool</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <!-- Sheep wool - most basic -->
+  <ThingDef ParentName="WoolBase">
+    <defName>WoolSheep</defName>
+    <label>sheep wool</label>
+    <description>Sheep's wool. It provides good insulation.</description>
+    <possessionCount>30</possessionCount>
+    <statBases>
+      <StuffPower_Insulation_Cold>26</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(219,214,209)</color>
+      <commonality>0.24</commonality>
+    </stuffProps>
+    <graphicData>
+      <color>(219,214,209)</color>
+    </graphicData>
+  </ThingDef>
+
+  <!-- Alpaca wool - A bit better than sheep's wool, but more importantly more expensive -->
+  <ThingDef ParentName="WoolBase">
+    <defName>WoolAlpaca</defName>
+    <label>alpaca wool</label>
+    <description>The remarkably soft wool of an alpaca. It is warm, protects well from heat, and fetches a high price.</description>
+    <possessionCount>30</possessionCount>
+    <statBases>
+      <MarketValue>3.8</MarketValue>
+      <StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
+    </statBases>
+    <graphicData>
+      <color>(237,216,174)</color>
+    </graphicData>
+    <stuffProps>
+      <color>(180,148,109)</color>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="WoolBase">
+    <defName>WoolMegasloth</defName>
+    <label>megasloth wool</label>
+    <description>While somewhat coarse, megasloth wool's long fibers make it very strong. It is exceptionally warm.</description>
+    <possessionCount>30</possessionCount>
+    <statBases>
+      <StuffPower_Armor_Sharp>0.80</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>34</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+    </statBases>
+    <graphicData>
+      <color>(189,161,116)</color>
+    </graphicData>
+    <stuffProps>
+      <color>(189,161,116)</color>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="WoolBase">
+    <defName>WoolMuffalo</defName>
+    <label>muffalo wool</label>
+    <description>Soft, light and provides very good insulation. Muffalo wool clothes can keep the body warm even in very cold conditions.</description>
+    <possessionCount>30</possessionCount>
+    <statBases>
+      <StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+    </statBases>
+    <graphicData>
+      <color>(179,192,186)</color>
+    </graphicData>
+    <stuffProps>
+      <color>(179,192,186)</color>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="WoolBase">
+    <defName>WoolBison</defName>
+    <label>bison wool</label>
+    <description>Thick and coarse wool of a bison. Quite warm.</description>
+    <possessionCount>30</possessionCount>
+    <statBases>
+      <StuffPower_Insulation_Cold>26</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+    </statBases>
+    <graphicData>
+      <color>(104,69,45)</color>
+    </graphicData>
+    <stuffProps>
+      <color>(104,69,45)</color>
+    </stuffProps>
+  </ThingDef>
+
+</Defs>

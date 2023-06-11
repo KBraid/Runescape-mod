@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <packageId>KBraid.runescape</packageId>
+  <name>runescape</name>
+  <author>K'Braid</author>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <description>
+  </description>
+  <loadAfter>
+    <li>Ludeon.Rimworld</li>
+  </loadAfter>
+</ModMetaData>

@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <SkillDef>
+    <defName>Melee</defName>
+    <description>Wielding stronger melee weapons and hitting monsters more accurately in Melee.</description>
+    <skillLabel>Attack</skillLabel>
+    <disablingWorkTags>Violent</disablingWorkTags>
+    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
+    <listOrder>240</listOrder>
+    <lessonInteraction MayRequire="Ludeon.RimWorld.Biotech">LessonMelee</lessonInteraction>
+  </SkillDef>
+
+  <SkillDef>
+    <defName>Strength</defName>
+    <description>Dealing more melee damage and equipping certain weapons.</description>
+    <skillLabel>Strength</skillLabel>
+    <disablingWorkTags>Violent</disablingWorkTags>
+    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
+    <listOrder>230</listOrder>
+    <lessonInteraction MayRequire="Ludeon.RimWorld.Biotech">LessonMelee</lessonInteraction>
+  </SkillDef>
+
+  <SkillDef>
+    <defName>Defence</defName>
+    <description>Wearing stronger armour and decreasing chance of being hit.</description>
+    <skillLabel>Defence</skillLabel>
+    <disablingWorkTags>Violent</disablingWorkTags>
+    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
+    <listOrder>220</listOrder>
+  </SkillDef>
+
+  <SkillDef>
+    <defName>Shooting</defName>
+    <description>Equipping stronger ranged weapons and armour. It also increases ranged accuracy.</description>
+    <skillLabel>Ranged</skillLabel>
+    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
+    <disablingWorkTags>Violent</disablingWorkTags>
+    <neverDisabledBasedOnWorkTypes>true</neverDisabledBasedOnWorkTypes>
+    <listOrder>210</listOrder>
+    <lessonInteraction MayRequire="Ludeon.RimWorld.Biotech">LessonShooting</lessonInteraction>
+  </SkillDef>
+
+  <SkillDef>
+    <defName>Prayer</defName>
+    <description>Activating temporary aids to assist in combat.</description>
+    <skillLabel>Prayer</skillLabel>
+    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
+    <listOrder>200</listOrder>
+  </SkillDef>
+
+  <SkillDef>
+    <defName>Magic</defName>
+    <description>Casting various combat and utility spells.</description>
+    <skillLabel>Magic</skillLabel>
+    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
+    <listOrder>190</listOrder>
+  </SkillDef>
+
+  <SkillDef>
+    <defName>Runecraft</defName>
+    <description>Creating runes used for casting Magic.</description>
+    <skillLabel>Runecraft</skillLabel>
+    <listOrder>180</listOrder>
+    <lessonInteraction MayRequire="Ludeon.RimWorld.Biotech">LessonCrafting</lessonInteraction>
+  </SkillDef>
+
+  <SkillDef>
+    <defName>Construction</defName>
+    <description>Constructing and deconstructing structures and furniture.</description>
+    <skillLabel>construction</skillLabel>
+    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
+    <listOrder>170</listOrder>
+    <lessonInteraction MayRequire="Ludeon.RimWorld.Biotech">LessonConstruction</lessonInteraction>
+  </SkillDef>
+
+  <SkillDef>
+    <defName>Hitpoints</defName>
+    <description>Amount of damage you can withstand.</description>
+    <skillLabel>Hitpoints</skillLabel>
+    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
+    <listOrder>160</listOrder>
+  </SkillDef>
+
+  <SkillDef>
+    <defName>Agility</defName>
+    <description>Traversing shortcuts and increases the rate at which energy recharges.</description>
+    <skillLabel>Agility</skillLabel>
+    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
+    <listOrder>110</listOrder>
+  </SkillDef>
+
+  <SkillDef>
+    <defName>Herblore</defName>
+    <description>Cleaning and using herbs to create potions.</description>
+    <skillLabel>Herblore</skillLabel>
+    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
+    <listOrder>150</listOrder>
+    <lessonInteraction MayRequire="Ludeon.RimWorld.Biotech">LessonPlants</lessonInteraction>
+  </SkillDef>
+
+  <SkillDef>
+    <defName>Crafting</defName>
+    <description>Creating items such as jewellery, pottery, and ranged armour.</description>
+    <skillLabel>Crafting</skillLabel>
+    <listOrder>140</listOrder>
+    <lessonInteraction MayRequire="Ludeon.RimWorld.Biotech">LessonCrafting</lessonInteraction>
+  </SkillDef>
+
+  <SkillDef>
+    <defName>Fletching</defName>
+    <description>Creating ranged weapons and ammunition.</description>
+    <skillLabel>Fletching</skillLabel>
+    <listOrder>130</listOrder>
+    <lessonInteraction MayRequire="Ludeon.RimWorld.Biotech">LessonCrafting</lessonInteraction>
+  </SkillDef>
+
+  <SkillDef>
+    <defName>Animals</defName>
+    <description>Capturing wild animals and creatures. </description>
+    <skillLabel>Hunter</skillLabel>
+    <usuallyDefinedInBackstories>false</usuallyDefinedInBackstories>
+    <listOrder>120</listOrder>
+    <lessonInteraction MayRequire="Ludeon.RimWorld.Biotech">LessonAnimals</lessonInteraction>
+  </SkillDef>
+
+  <SkillDef>
+    <defName>Mining</defName>
+    <description>Obtaining ores and minerals from rocks.</description>
+    <skillLabel>Mining</skillLabel>
+    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
+    <listOrder>110</listOrder>
+    <lessonInteraction MayRequire="Ludeon.RimWorld.Biotech">LessonMining</lessonInteraction>
+  </SkillDef>
+
+  <SkillDef>
+    <defName>Smithing</defName>
+    <description>Smelting ores into bars and forging bars into armour and weapons.</description>
+    <skillLabel>Smithing</skillLabel>
+    <listOrder>100</listOrder>
+    <lessonInteraction MayRequire="Ludeon.RimWorld.Biotech">LessonCrafting</lessonInteraction>
+  </SkillDef>
+
+  <SkillDef>
+    <defName>Fishing</defName>
+    <description>Catching fish.</description>
+    <skillLabel>Fishing</skillLabel>
+    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
+    <listOrder>90</listOrder>
+  </SkillDef>
+
+  <SkillDef>
+    <defName>Cooking</defName>
+    <description>Making and cooking food.</description>
+    <skillLabel>Cooking</skillLabel>
+    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
+    <listOrder>80</listOrder>
+    <lessonInteraction MayRequire="Ludeon.RimWorld.Biotech">LessonCooking</lessonInteraction>
+  </SkillDef>
+
+  <SkillDef>
+    <defName>Firemaking</defName>
+    <description>Lighting fires.</description>
+    <skillLabel>Firemaking</skillLabel>
+    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
+    <listOrder>70</listOrder>
+  </SkillDef>
+
+  <SkillDef>
+    <defName>Woodcutting</defName>
+    <description>Chopping down trees.</description>
+    <skillLabel>Woodcutting</skillLabel>
+    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
+    <listOrder>60</listOrder>
+    <lessonInteraction MayRequire="Ludeon.RimWorld.Biotech">LessonPlants</lessonInteraction>
+  </SkillDef>
+
+  <SkillDef>
+    <defName>Plants</defName>
+    <description>Planting and harvesting crops.</description>
+    <skillLabel>Farming</skillLabel>
+    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
+    <listOrder>50</listOrder>
+    <lessonInteraction MayRequire="Ludeon.RimWorld.Biotech">LessonPlants</lessonInteraction>
+  </SkillDef>
+
+  <SkillDef>
+    <defName>Artistic</defName>
+    <description>Crafting art.</description>
+    <skillLabel>artistic</skillLabel>
+    <listOrder>40</listOrder>
+    <lessonInteraction MayRequire="Ludeon.RimWorld.Biotech">LessonArtistic</lessonInteraction>
+  </SkillDef>
+
+  <SkillDef>
+    <defName>Medicine</defName>
+    <description>Tending wounds and diseases and performing surgery.</description>
+    <skillLabel>medical</skillLabel>
+    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
+    <listOrder>30</listOrder>
+    <lessonInteraction MayRequire="Ludeon.RimWorld.Biotech">LessonMedicine</lessonInteraction>
+  </SkillDef>
+
+  <SkillDef>
+    <defName>Social</defName>
+    <description>Negotiating, convincing, manipulating, leading, and cheering up others.</description>
+    <skillLabel>social</skillLabel>
+    <listOrder>20</listOrder>
+    <lessonInteraction MayRequire="Ludeon.RimWorld.Biotech">LessonSocial</lessonInteraction>
+  </SkillDef>
+
+  <SkillDef>
+    <defName>Intellectual</defName>
+    <description>Researching and drug synthesis.</description>
+    <skillLabel>intellectual</skillLabel>
+    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
+    <listOrder>10</listOrder>
+    <lessonInteraction MayRequire="Ludeon.RimWorld.Biotech">LessonIntellectual</lessonInteraction>
+  </SkillDef>
+
+</Defs>
