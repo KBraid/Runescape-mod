@@ -2,39 +2,39 @@
 <Defs>
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp">
-    <defName>MeleeWeapon_SteelDagger</defName>
-    <label>Steel dagger</label>
-    <techLevel>Industrial</techLevel>
-    <description>Short but pointy.</description>
+    <defName>MeleeWeapon_MithrilDagger</defName>
+    <label>Mithril dagger</label>
+    <techLevel>Spacer</techLevel>
+    <description>A dangerous dagger.</description>
     <graphicData>
-      <texPath>Things/Item/Weapons/Steel/Steel_dagger</texPath>
+      <texPath>Things/Item/Weapons/Mithril/Mithril_dagger</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <weaponTags>
-      <li>IndustrialMeleeBasic</li>
+      <li>SpacerMeleeBasic</li>
     </weaponTags>
     <weaponClasses>
-      <li>Industrial</li>
+      <li>Spacer</li>
     </weaponClasses>
     <statBases>
-      <MarketValue>125</MarketValue>
+      <MarketValue>325</MarketValue>
       <WorkToMake>300</WorkToMake>
-      <Mass>0.453</Mass>
+      <Mass>0.396</Mass>
     </statBases>
     <burnableByRecipe>false</burnableByRecipe>
     <costList>
-      <Steel>1</Steel>
+      <Mithril>1</Mithril>
     </costList>
     <recipeMaker>
       <skillRequirements>
-        <Smithing>6</Smithing>
+        <Smithing>10</Smithing>
       </skillRequirements>
       <displayPriority>310</displayPriority>
     </recipeMaker>
     <comps>
       <li Class="SkillRestrictions.SkillCompProperties">
         <skillDef>Melee</skillDef>
-        <level>1</level>
+        <level>4</level>
       </li>
     </comps>
     <tools>
@@ -43,7 +43,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>15</power>
+        <power>21</power>
         <cooldownTime>2.4</cooldownTime>
       </li>
       <li>
@@ -51,7 +51,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>15</power>
+        <power>21</power>
         <cooldownTime>2.4</cooldownTime>
       </li>
       <li>
@@ -59,7 +59,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>11</power>
+        <power>15</power>
         <cooldownTime>2.4</cooldownTime>
       </li>
       <li>
@@ -67,46 +67,46 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>15</power>
+        <power>21</power>
         <cooldownTime>2.4</cooldownTime>
       </li>
     </tools>
   </ThingDef>
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp">
-    <defName>MeleeWeapon_SteelAxe</defName>
-    <label>Steel axe</label>
-    <techLevel>Industrial</techLevel>
-    <description>A woodcutter's axe.</description>
+    <defName>MeleeWeapon_MithrilAxe</defName>
+    <label>Mithril axe</label>
+    <techLevel>Spacer</techLevel>
+    <description> A powerful axe.</description>
     <graphicData>
-      <texPath>Things/Item/Weapons/Steel/Steel_axe</texPath>
+      <texPath>Things/Item/Weapons/Mithril/Mithril_axe</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <weaponTags>
-      <li>IndustrialMeleeBasic</li>
+      <li>SpacerMeleeBasic</li>
     </weaponTags>
     <weaponClasses>
-      <li>Industrial</li>
+      <li>Spacer</li>
     </weaponClasses>
     <statBases>
-      <MarketValue>200</MarketValue>
+      <MarketValue>520</MarketValue>
       <WorkToMake>300</WorkToMake>
-      <Mass>1.36</Mass>
+      <Mass>1.133</Mass>
     </statBases>
     <burnableByRecipe>false</burnableByRecipe>
     <costList>
-      <Steel>1</Steel>
+      <Mithril>1</Mithril>
     </costList>
     <recipeMaker>
       <skillRequirements>
-        <Smithing>6</Smithing>
+        <Smithing>10</Smithing>
       </skillRequirements>
       <displayPriority>310</displayPriority>
     </recipeMaker>
     <comps>
       <li Class="SkillRestrictions.SkillCompProperties">
         <skillDef>Melee</skillDef>
-        <level>1</level>
+        <level>4</level>
       </li>
     </comps>
     <tools>
@@ -115,7 +115,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>17</power>
+        <power>25</power>
         <cooldownTime>3</cooldownTime>
       </li>
       <li>
@@ -123,7 +123,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>17</power>
+        <power>25</power>
         <cooldownTime>3</cooldownTime>
       </li>
       <li>
@@ -131,7 +131,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>15</power>
+        <power>23</power>
         <cooldownTime>3</cooldownTime>
       </li>
       <li>
@@ -139,489 +139,41 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>17</power>
+        <power>25</power>
         <cooldownTime>3</cooldownTime>
       </li>
     </tools>
   </ThingDef>
 
   <ThingDef ParentName="BaseRSMeleeWeapon_Sharp">
-    <defName>MeleeWeapon_SteelPickaxe</defName>
-    <label>Steel pickaxe</label>
-    <techLevel>Industrial</techLevel>
+    <defName>MeleeWeapon_MithrilPickaxe</defName>
+    <label>Mithril pickaxe</label>
+    <techLevel>Spacer</techLevel>
     <description>Used for mining.</description>
     <graphicData>
-      <texPath>Things/Item/Weapons/Steel/Steel_pickaxe</texPath>
+      <texPath>Things/Item/Weapons/Mithril/Mithril_pickaxe</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <weaponTags>
-      <li>IndustrialMeleeBasic</li>
+      <li>SpacerMeleeBasic</li>
     </weaponTags>
     <weaponClasses>
-      <li>Industrial</li>
+      <li>Spacer</li>
     </weaponClasses>
     <statBases>
-      <MarketValue>500</MarketValue>
-      <Mass>2.267</Mass>
+      <MarketValue>1300</MarketValue>
+      <Mass>1.814</Mass>
     </statBases>
     <burnableByRecipe>false</burnableByRecipe>
     <comps>
       <li Class="SkillRestrictions.SkillCompProperties">
         <skillDef>Melee</skillDef>
-        <level>1</level>
+        <level>4</level>
       </li>
     </comps>
     <tools>
       <li>
         <label>Spike</label>
-        <capacities>
-          <li>Stab</li>
-        </capacities>
-        <power>17</power>
-        <cooldownTime>3</cooldownTime>
-      </li>
-      <li>
-        <label>Impale</label>
-        <capacities>
-          <li>Stab</li>
-        </capacities>
-        <power>17</power>
-        <cooldownTime>3</cooldownTime>
-      </li>
-      <li>
-        <label>Smash</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>15</power>
-        <cooldownTime>3</cooldownTime>
-      </li>
-      <li>
-        <label>Block</label>
-        <capacities>
-          <li>Stab</li>
-        </capacities>
-        <power>17</power>
-        <cooldownTime>3</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
-
-  <ThingDef ParentName="BaseMeleeWeapon_Blunt">
-    <defName>MeleeWeapon_SteelMace</defName>
-    <label>Steel mace</label>
-    <description>A spiky mace.</description>
-    <possessionCount>1</possessionCount>
-    <graphicData>
-      <texPath>Things/Item/Weapons/Steel/Steel_mace</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <techLevel>Industrial</techLevel>
-    <statBases>
-      <MarketValue>225</MarketValue>
-      <WorkToMake>300</WorkToMake>
-      <Mass>1.814</Mass>
-    </statBases>
-    <costList>
-      <Steel>1</Steel>
-    </costList>
-    <recipeMaker>
-      <skillRequirements>
-        <Smithing>6</Smithing>
-      </skillRequirements>
-      <displayPriority>400</displayPriority>
-    </recipeMaker>
-    <weaponTags>
-      <li>IndustrialMeleeDecent</li>
-    </weaponTags>
-    <weaponClasses>
-      <li>Melee</li>
-    </weaponClasses>
-    <comps>
-      <li Class="SkillRestrictions.SkillCompProperties">
-        <skillDef>Melee</skillDef>
-        <level>1</level>
-      </li>
-    </comps>
-    <tools>
-      <li>
-        <label>Pound</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>24</power>
-        <cooldownTime>2.4</cooldownTime>
-      </li>
-      <li>
-        <label>Pummel</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>24</power>
-        <cooldownTime>2.4</cooldownTime>
-      </li>
-      <li>
-        <label>Spike</label>
-        <capacities>
-          <li>Stab</li>
-        </capacities>
-        <power>18</power>
-        <cooldownTime>2.4</cooldownTime>
-      </li>
-      <li>
-        <label>Block</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>24</power>
-        <cooldownTime>2.4</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
-
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
-    <defName>MeleeWeapon_SteelSword</defName>
-    <label>Steel sword</label>
-    <description>A razor sharp sword.</description>
-    <possessionCount>1</possessionCount>
-    <graphicData>
-      <texPath>Things/Item/Weapons/Steel/Steel_sword</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <techLevel>Industrial</techLevel>
-    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
-    <weaponTags>
-      <li>IndustrialMeleeDecent</li>
-    </weaponTags>
-    <statBases>
-      <MarketValue>325</MarketValue>
-      <WorkToMake>300</WorkToMake>
-      <Mass>1.814</Mass>
-    </statBases>
-    <relicChance>2</relicChance>
-    <costList>
-      <Steel>1</Steel>
-    </costList>
-    <recipeMaker>
-      <skillRequirements>
-        <Smithing>7</Smithing>
-      </skillRequirements>
-      <displayPriority>410</displayPriority>
-    </recipeMaker>
-    <comps>
-      <li Class="SkillRestrictions.SkillCompProperties">
-        <skillDef>Melee</skillDef>
-        <level>1</level>
-      </li>
-    </comps>
-    <tools>
-      <li>
-        <label>Stab</label>
-        <capacities>
-          <li>Stab</li>
-        </capacities>
-        <power>23</power>
-        <cooldownTime>2.4</cooldownTime>
-      </li>
-      <li>
-        <label>Lunge</label>
-        <capacities>
-          <li>Stab</li>
-        </capacities>
-        <power>23</power>
-        <cooldownTime>2.4</cooldownTime>
-      </li>
-      <li>
-        <label>Slash</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>20</power>
-        <cooldownTime>2.4</cooldownTime>
-      </li>
-      <li>
-        <label>Block</label>
-        <capacities>
-          <li>Stab</li>
-        </capacities>
-        <power>23</power>
-        <cooldownTime>2.4</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
-
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
-    <defName>MeleeWeapon_SteelScimitar</defName>
-    <label>Steel scimitar</label>
-    <description>A vicious, curved sword.</description>
-    <possessionCount>1</possessionCount>
-    <graphicData>
-      <texPath>Things/Item/Weapons/Steel/Steel_scimitar</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <techLevel>Industrial</techLevel>
-    <weaponTags>
-      <li>IndustrialMeleeAdvanced</li>
-    </weaponTags>
-    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
-    <statBases>
-      <MarketValue>400</MarketValue>
-      <WorkToMake>300</WorkToMake>
-      <Mass>1.814</Mass>
-    </statBases>
-    <relicChance>2</relicChance>
-    <costList>
-      <Steel>2</Steel>
-    </costList>
-    <recipeMaker>
-      <skillRequirements>
-        <Smithing>7</Smithing>
-      </skillRequirements>
-      <displayPriority>420</displayPriority>
-    </recipeMaker>
-    <comps>
-      <li Class="SkillRestrictions.SkillCompProperties">
-        <skillDef>Melee</skillDef>
-        <level>1</level>
-      </li>
-    </comps>
-    <tools>
-      <li>
-        <label>Chop</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>29</power>
-        <cooldownTime>2.4</cooldownTime>
-      </li>
-      <li>
-        <label>Slash</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>29</power>
-        <cooldownTime>2.4</cooldownTime>
-      </li>
-      <li>
-        <label>Lunge</label>
-        <capacities>
-          <li>Stab</li>
-        </capacities>
-        <power>17</power>
-        <cooldownTime>2.4</cooldownTime>
-      </li>
-      <li>
-        <label>Block</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>29</power>
-        <cooldownTime>2.4</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
-
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
-    <defName>MeleeWeapon_SteelSpear</defName>
-    <label>Steel spear</label>
-    <description>A steel tipped spear.</description>
-    <graphicData>
-      <texPath>Things/Item/Weapons/Steel/Steel_spear</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <techLevel>Industrial</techLevel>
-    <weaponTags>
-      <li>IndustrialMeleeAdvanced</li>
-      <li>Spear</li>
-    </weaponTags>
-    <weaponClasses>
-      <li>Industrial</li>
-    </weaponClasses>
-    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
-    <statBases>
-      <MarketValue>325</MarketValue>
-      <WorkToMake>240</WorkToMake>
-      <Mass>2.267</Mass>
-    </statBases>
-    <costList>
-      <WillowLog>1</WillowLog>
-      <Steel>1</Steel>
-    </costList>
-    <recipeMaker>
-      <skillRequirements>
-        <Smithing>7</Smithing>
-      </skillRequirements>
-      <displayPriority>330</displayPriority>
-    </recipeMaker>
-    <comps>
-      <li Class="SkillRestrictions.SkillCompProperties">
-        <skillDef>Melee</skillDef>
-        <level>1</level>
-      </li>
-    </comps>
-    <tools>
-      <li>
-        <label>Lunge</label>
-        <capacities>
-          <li>Stab</li>
-        </capacities>
-        <power>24</power>
-        <cooldownTime>2.4</cooldownTime>
-      </li>
-      <li>
-        <label>Swipe</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>24</power>
-        <cooldownTime>2.4</cooldownTime>
-      </li>
-      <li>
-        <label>Pound</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>24</power>
-        <cooldownTime>2.4</cooldownTime>
-      </li>
-      <li>
-        <label>Block</label>
-        <capacities>
-          <li>Stab</li>
-        </capacities>
-        <power>24</power>
-        <cooldownTime>2.4</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
-
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
-    <defName>MeleeWeapon_SteelHasta</defName>
-    <label>Steel hasta</label>
-    <description>A steel-tipped, one-handed hasta.</description>
-    <graphicData>
-      <texPath>Things/Item/Weapons/Steel/Steel_hasta</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <techLevel>Industrial</techLevel>
-    <weaponTags>
-      <li>IndustrialMeleeDecent</li>
-    </weaponTags>
-    <weaponClasses>
-      <li>Industrial</li>
-    </weaponClasses>
-    <statBases>
-      <MarketValue>325</MarketValue>
-      <WorkToMake>240</WorkToMake>
-      <Mass>2.267</Mass>
-    </statBases>
-    <costList>
-      <WillowLog>1</WillowLog>
-      <Steel>1</Steel>
-    </costList>
-    <recipeMaker>
-      <skillRequirements>
-        <Smithing>7</Smithing>
-      </skillRequirements>
-      <displayPriority>320</displayPriority>
-    </recipeMaker>
-    <comps>
-      <li Class="SkillRestrictions.SkillCompProperties">
-        <skillDef>Melee</skillDef>
-        <level>1</level>
-      </li>
-    </comps>
-    <tools>
-      <li>
-        <label>Lunge</label>
-        <capacities>
-          <li>Stab</li>
-        </capacities>
-        <power>24</power>
-        <cooldownTime>2.4</cooldownTime>
-      </li>
-      <li>
-        <label>Swipe</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>24</power>
-        <cooldownTime>2.4</cooldownTime>
-      </li>
-      <li>
-        <label>Pound</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>24</power>
-        <cooldownTime>2.4</cooldownTime>
-      </li>
-      <li>
-        <label>Block</label>
-        <capacities>
-          <li>Stab</li>
-        </capacities>
-        <power>24</power>
-        <cooldownTime>2.4</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
-
-  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
-    <defName>MeleeWeapon_SteelLongSword</defName>
-    <label>Steel longsword</label>
-    <description>A razor sharp longsword.</description>
-    <possessionCount>1</possessionCount>
-    <graphicData>
-      <texPath>Things/Item/Weapons/Steel/Steel_longsword</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <techLevel>Industrial</techLevel>
-    <weaponTags>
-      <li>IndustrialMeleeAdvanced</li>
-      <li>LongSword</li>
-    </weaponTags>
-    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
-    <statBases>
-      <MarketValue>500</MarketValue>
-      <WorkToMake>300</WorkToMake>
-      <Mass>1.814</Mass>
-    </statBases>
-    <relicChance>2</relicChance>
-    <costList>
-      <Steel>2</Steel>
-    </costList>
-    <recipeMaker>
-      <skillRequirements>
-        <Smithing>7</Smithing>
-      </skillRequirements>
-      <displayPriority>420</displayPriority>
-    </recipeMaker>
-    <comps>
-      <li Class="SkillRestrictions.SkillCompProperties">
-        <skillDef>Melee</skillDef>
-        <level>1</level>
-      </li>
-    </comps>
-    <tools>
-      <li>
-        <label>Chop</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>30</power>
-        <cooldownTime>3</cooldownTime>
-      </li>
-      <li>
-        <label>Slash</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>30</power>
-        <cooldownTime>3</cooldownTime>
-      </li>
-      <li>
-        <label>Lunge</label>
         <capacities>
           <li>Stab</li>
         </capacities>
@@ -629,46 +181,66 @@
         <cooldownTime>3</cooldownTime>
       </li>
       <li>
+        <label>Impale</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>3</cooldownTime>
+      </li>
+      <li>
+        <label>Smash</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>23</power>
+        <cooldownTime>3</cooldownTime>
+      </li>
+      <li>
         <label>Block</label>
         <capacities>
-          <li>Cut</li>
+          <li>Stab</li>
         </capacities>
-        <power>30</power>
+        <power>25</power>
         <cooldownTime>3</cooldownTime>
       </li>
     </tools>
   </ThingDef>
 
   <ThingDef ParentName="BaseMeleeWeapon_Blunt">
-    <defName>MeleeWeapon_SteelWarhammer</defName>
-    <label>Steel warhammer</label>
-    <description>I don't think it's intended for joinery.</description>
+    <defName>MeleeWeapon_MithrilMace</defName>
+    <label>Mithril mace</label>
+    <description>A spiky mace.</description>
+    <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>Things/Item/Weapons/Steel/Steel_warhammer</texPath>
+      <texPath>Things/Item/Weapons/Mithril/Mithril_mace</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <techLevel>Industrial</techLevel>
-    <weaponTags>
-      <li>IndustrialMeleeDestructive</li>
-    </weaponTags>
+    <techLevel>Spacer</techLevel>
     <statBases>
-      <MarketValue>640</MarketValue>
+      <MarketValue>585</MarketValue>
       <WorkToMake>300</WorkToMake>
-      <Mass>1.814</Mass>
+      <Mass>1.587</Mass>
     </statBases>
     <costList>
-      <Steel>3</Steel>
+      <Mithril>1</Mithril>
     </costList>
     <recipeMaker>
       <skillRequirements>
-        <Smithing>8</Smithing>
+        <Smithing>10</Smithing>
       </skillRequirements>
-      <displayPriority>450</displayPriority>
+      <displayPriority>400</displayPriority>
     </recipeMaker>
+    <weaponTags>
+      <li>SpacerMeleeDecent</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>Melee</li>
+    </weaponClasses>
     <comps>
       <li Class="SkillRestrictions.SkillCompProperties">
-        <skillDef>Stregnth</skillDef>
-        <level>1</level>
+        <skillDef>Melee</skillDef>
+        <level>4</level>
       </li>
     </comps>
     <tools>
@@ -678,7 +250,7 @@
           <li>Blunt</li>
         </capacities>
         <power>34</power>
-        <cooldownTime>3.6</cooldownTime>
+        <cooldownTime>2.4</cooldownTime>
       </li>
       <li>
         <label>Pummel</label>
@@ -686,7 +258,15 @@
           <li>Blunt</li>
         </capacities>
         <power>34</power>
-        <cooldownTime>3.6</cooldownTime>
+        <cooldownTime>2.4</cooldownTime>
+      </li>
+      <li>
+        <label>Spike</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>27</power>
+        <cooldownTime>2.4</cooldownTime>
       </li>
       <li>
         <label>Block</label>
@@ -694,41 +274,115 @@
           <li>Blunt</li>
         </capacities>
         <power>34</power>
-        <cooldownTime>3.6</cooldownTime>
+        <cooldownTime>2.4</cooldownTime>
       </li>
     </tools>
   </ThingDef>
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp">
-    <defName>MeleeWeapon_SteelBattleaxe</defName>
-    <label>Steel Battleaxe</label>
-    <description>A vicious looking axe.</description>
+    <defName>MeleeWeapon_MithrilSword</defName>
+    <label>Mithril sword</label>
+    <description>A razor sharp sword.</description>
+    <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>Things/Item/Weapons/Steel/Steel_battleaxe</texPath>
+      <texPath>Things/Item/Weapons/Mithril/Mithril_sword</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <techLevel>Industrial</techLevel>
+    <techLevel>Spacer</techLevel>
+    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
     <weaponTags>
-      <li>IndustrialMeleeDestructive</li>
+      <li>SpacerMeleeDecent</li>
     </weaponTags>
     <statBases>
-      <MarketValue>650</MarketValue>
+      <MarketValue>845</MarketValue>
       <WorkToMake>300</WorkToMake>
-      <Mass>2.721</Mass>
+      <Mass>1.587</Mass>
     </statBases>
+    <relicChance>2</relicChance>
     <costList>
-      <Steel>3</Steel>
+      <Mithril>1</Mithril>
     </costList>
     <recipeMaker>
       <skillRequirements>
-        <Smithing>8</Smithing>
+        <Smithing>11</Smithing>
       </skillRequirements>
-      <displayPriority>450</displayPriority>
+      <displayPriority>410</displayPriority>
     </recipeMaker>
     <comps>
       <li Class="SkillRestrictions.SkillCompProperties">
         <skillDef>Melee</skillDef>
-        <level>1</level>
+        <level>4</level>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>Stab</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>33</power>
+        <cooldownTime>2.4</cooldownTime>
+      </li>
+      <li>
+        <label>Lunge</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>33</power>
+        <cooldownTime>2.4</cooldownTime>
+      </li>
+      <li>
+        <label>Slash</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>2.4</cooldownTime>
+      </li>
+      <li>
+        <label>Block</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>33</power>
+        <cooldownTime>2.4</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
+    <defName>MeleeWeapon_MithrilScimitar</defName>
+    <label>Mithril scimitar</label>
+    <description>A vicious, curved sword.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/Weapons/Mithril/Mithril_scimitar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>SpacerMeleeAdvanced</li>
+    </weaponTags>
+    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+    <statBases>
+      <MarketValue>1040</MarketValue>
+      <WorkToMake>300</WorkToMake>
+      <Mass>1.587</Mass>
+    </statBases>
+    <relicChance>2</relicChance>
+    <costList>
+      <Mithril>2</Mithril>
+    </costList>
+    <recipeMaker>
+      <skillRequirements>
+        <Smithing>11</Smithing>
+      </skillRequirements>
+      <displayPriority>420</displayPriority>
+    </recipeMaker>
+    <comps>
+      <li Class="SkillRestrictions.SkillCompProperties">
+        <skillDef>Melee</skillDef>
+        <level>4</level>
       </li>
     </comps>
     <tools>
@@ -737,7 +391,353 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>36</power>
+        <power>41</power>
+        <cooldownTime>2.4</cooldownTime>
+      </li>
+      <li>
+        <label>Slash</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>41</power>
+        <cooldownTime>2.4</cooldownTime>
+      </li>
+      <li>
+        <label>Lunge</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>2.4</cooldownTime>
+      </li>
+      <li>
+        <label>Block</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>41</power>
+        <cooldownTime>2.4</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
+    <defName>MeleeWeapon_MithrilSpear</defName>
+    <label>Mithril spear</label>
+    <description>A mithril tipped spear.</description>
+    <graphicData>
+      <texPath>Things/Item/Weapons/Mithril/Mithril_spear</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>SpacerMeleeAdvanced</li>
+      <li>Spear</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>Spacer</li>
+    </weaponClasses>
+    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+    <statBases>
+      <MarketValue>845</MarketValue>
+      <WorkToMake>240</WorkToMake>
+      <Mass>1.814</Mass>
+    </statBases>
+    <costList>
+      <MapleLog>1<MapleLog>
+      <Mithril>1</Mithril>
+    </costList>
+    <recipeMaker>
+      <skillRequirements>
+        <Smithing>11</Smithing>
+      </skillRequirements>
+      <displayPriority>330</displayPriority>
+    </recipeMaker>
+    <comps>
+      <li Class="SkillRestrictions.SkillCompProperties">
+        <skillDef>Melee</skillDef>
+        <level>4</level>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>Lunge</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>2.4</cooldownTime>
+      </li>
+      <li>
+        <label>Swipe</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>2.4</cooldownTime>
+      </li>
+      <li>
+        <label>Pound</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>2.4</cooldownTime>
+      </li>
+      <li>
+        <label>Block</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>2.4</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
+    <defName>MeleeWeapon_MithrilHasta</defName>
+    <label>Mithril hasta</label>
+    <description>A mithril-tipped, one-handed hasta.</description>
+    <graphicData>
+      <texPath>Things/Item/Weapons/Mithril/Mithril_hasta</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>SpacerMeleeDecent</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>Spacer</li>
+    </weaponClasses>
+    <statBases>
+      <MarketValue>845</MarketValue>
+      <WorkToMake>240</WorkToMake>
+      <Mass>1.814</Mass>
+    </statBases>
+    <costList>
+      <MapleLog>1</MapleLog>
+      <Mithril>1</Mithril>
+    </costList>
+    <recipeMaker>
+      <skillRequirements>
+        <Smithing>11</Smithing>
+      </skillRequirements>
+      <displayPriority>320</displayPriority>
+    </recipeMaker>
+    <comps>
+      <li Class="SkillRestrictions.SkillCompProperties">
+        <skillDef>Melee</skillDef>
+        <level>4</level>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>Lunge</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>2.4</cooldownTime>
+      </li>
+      <li>
+        <label>Swipe</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>2.4</cooldownTime>
+      </li>
+      <li>
+        <label>Pound</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>2.4</cooldownTime>
+      </li>
+      <li>
+        <label>Block</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>2.4</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
+    <defName>MeleeWeapon_MithrilLongSword</defName>
+    <label>Mithril longsword</label>
+    <description>A razor sharp longsword.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/Weapons/Mithril/Mithril_longsword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>SpacerMeleeAdvanced</li>
+      <li>LongSword</li>
+    </weaponTags>
+    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+    <statBases>
+      <MarketValue>1300</MarketValue>
+      <WorkToMake>300</WorkToMake>
+      <Mass>1.587</Mass>
+    </statBases>
+    <relicChance>2</relicChance>
+    <costList>
+      <Mithril>2</Mithril>
+    </costList>
+    <recipeMaker>
+      <skillRequirements>
+        <Smithing>11</Smithing>
+      </skillRequirements>
+      <displayPriority>420</displayPriority>
+    </recipeMaker>
+    <comps>
+      <li Class="SkillRestrictions.SkillCompProperties">
+        <skillDef>Melee</skillDef>
+        <level>4</level>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>Chop</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>42</power>
+        <cooldownTime>3</cooldownTime>
+      </li>
+      <li>
+        <label>Slash</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>42</power>
+        <cooldownTime>3</cooldownTime>
+      </li>
+      <li>
+        <label>Lunge</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>37</power>
+        <cooldownTime>3</cooldownTime>
+      </li>
+      <li>
+        <label>Block</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>42</power>
+        <cooldownTime>3</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt">
+    <defName>MeleeWeapon_MithrilWarhammer</defName>
+    <label>Mithril warhammer</label>
+    <description>I don't think it's intended for joinery.</description>
+    <graphicData>
+      <texPath>Things/Item/Weapons/Mithril/Mithril_warhammer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>SpacerMeleeDestructive</li>
+    </weaponTags>
+    <statBases>
+      <MarketValue>1660</MarketValue>
+      <WorkToMake>300</WorkToMake>
+      <Mass>1.587</Mass>
+    </statBases>
+    <costList>
+      <Mithril>3</Mithril>
+    </costList>
+    <recipeMaker>
+      <skillRequirements>
+        <Smithing>12</Smithing>
+      </skillRequirements>
+      <displayPriority>450</displayPriority>
+    </recipeMaker>
+    <comps>
+      <li Class="SkillRestrictions.SkillCompProperties">
+        <skillDef>Stregnth</skillDef>
+        <level>4</level>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>Pound</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>52</power>
+        <cooldownTime>3.6</cooldownTime>
+      </li>
+      <li>
+        <label>Pummel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>52</power>
+        <cooldownTime>3.6</cooldownTime>
+      </li>
+      <li>
+        <label>Block</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>52</power>
+        <cooldownTime>3.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
+    <defName>MeleeWeapon_MithrilBattleaxe</defName>
+    <label>Mithril Battleaxe</label>
+    <description>A vicious looking axe.</description>
+    <graphicData>
+      <texPath>Things/Item/Weapons/Mithril/Mithril_battleaxe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>SpacerMeleeDestructive</li>
+    </weaponTags>
+    <statBases>
+      <MarketValue>1690</MarketValue>
+      <WorkToMake>300</WorkToMake>
+      <Mass>2.267</Mass>
+    </statBases>
+    <costList>
+      <Mithril>3</Mithril>
+    </costList>
+    <recipeMaker>
+      <skillRequirements>
+        <Smithing>12</Smithing>
+      </skillRequirements>
+      <displayPriority>450</displayPriority>
+    </recipeMaker>
+    <comps>
+      <li Class="SkillRestrictions.SkillCompProperties">
+        <skillDef>Melee</skillDef>
+        <level>4</level>
+      </li>
+    </comps>
+    <tools>
+      <li>
+        <label>Chop</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>51</power>
         <cooldownTime>3.6</cooldownTime>
       </li>
       <li>
@@ -745,7 +745,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>36</power>
+        <power>51</power>
         <cooldownTime>3.6</cooldownTime>
       </li>
       <li>
@@ -753,7 +753,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>31</power>
+        <power>46</power>
         <cooldownTime>3.6</cooldownTime>
       </li>
       <li>
@@ -761,45 +761,45 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>36</power>
+        <power>51</power>
         <cooldownTime>3.6</cooldownTime>
       </li>
     </tools>
   </ThingDef>
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp">
-    <defName>MeleeWeapon_SteelClaws</defName>
-    <label>Steel claws</label>
+    <defName>MeleeWeapon_MithrilClaws</defName>
+    <label>Mithril claws</label>
     <description>A set of fighting claws.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>Things/Item/Weapons/Steel/Steel_claws</texPath>
+      <texPath>Things/Item/Weapons/Mithril/Mithril_claws</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <techLevel>Industrial</techLevel>
+    <techLevel>Spacer</techLevel>
     <weaponTags>
-      <li>IndustrialMeleeAdvanced</li>
+      <li>SpacerMeleeAdvanced</li>
     </weaponTags>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
     <statBases>
-      <MarketValue>175</MarketValue>
+      <MarketValue>475</MarketValue>
       <WorkToMake>300</WorkToMake>
       <Mass>0.907</Mass>
     </statBases>
     <relicChance>2</relicChance>
     <costList>
-      <Steel>2</Steel>
+      <Mithril>2</Mithril>
     </costList>
     <recipeMaker>
       <skillRequirements>
-        <Smithing>9</Smithing>
+        <Smithing>13</Smithing>
       </skillRequirements>
       <displayPriority>420</displayPriority>
     </recipeMaker>
     <comps>
       <li Class="SkillRestrictions.SkillCompProperties">
         <skillDef>Melee</skillDef>
-        <level>1</level>
+        <level>4</level>
       </li>
     </comps>
     <tools>
@@ -808,7 +808,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>23</power>
+        <power>33</power>
         <cooldownTime>2.4</cooldownTime>
       </li>
       <li>
@@ -816,7 +816,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>23</power>
+        <power>33</power>
         <cooldownTime>2.4</cooldownTime>
       </li>
       <li>
@@ -824,7 +824,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>20</power>
+        <power>28</power>
         <cooldownTime>2.4</cooldownTime>
       </li>
       <li>
@@ -832,46 +832,46 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>23</power>
+        <power>33</power>
         <cooldownTime>2.4</cooldownTime>
       </li>
     </tools>
   </ThingDef>
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp">
-    <defName>MeleeWeapon_Steel2hSword</defName>
-    <label>Steel 2h sword</label>
+    <defName>MeleeWeapon_Mithril2hSword</defName>
+    <label>Mithril 2h sword</label>
     <description>A two handed sword.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>Things/Item/Weapons/Steel/Steel_2h_sword</texPath>
+      <texPath>Things/Item/Weapons/Mithril/Mithril_2h_sword</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <techLevel>Industrial</techLevel>
+    <techLevel>Spacer</techLevel>
     <weaponTags>
-      <li>IndustrialMeleeAdvanced</li>
+      <li>SpacerMeleeAdvanced</li>
       <li>LongSword</li>
     </weaponTags>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
     <statBases>
-      <MarketValue>1000</MarketValue>
+      <MarketValue>2600</MarketValue>
       <WorkToMake>300</WorkToMake>
-      <Mass>3.628</Mass>
+      <Mass>3.175</Mass>
     </statBases>
     <relicChance>2</relicChance>
     <costList>
-      <Steel>3</Steel>
+      <Mithril>3</Mithril>
     </costList>
     <recipeMaker>
       <skillRequirements>
-        <Smithing>9</Smithing>
+        <Smithing>13</Smithing>
       </skillRequirements>
       <displayPriority>420</displayPriority>
     </recipeMaker>
     <comps>
       <li Class="SkillRestrictions.SkillCompProperties">
         <skillDef>Melee</skillDef>
-        <level>1</level>
+        <level>4</level>
       </li>
     </comps>
     <tools>
@@ -880,7 +880,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>43</power>
+        <power>61</power>
         <cooldownTime>4.2</cooldownTime>
       </li>
       <li>
@@ -888,7 +888,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>43</power>
+        <power>61</power>
         <cooldownTime>4.2</cooldownTime>
       </li>
       <li>
@@ -896,7 +896,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>38</power>
+        <power>55</power>
         <cooldownTime>4.2</cooldownTime>
       </li>
       <li>
@@ -904,35 +904,35 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>43</power>
+        <power>61</power>
         <cooldownTime>4.2</cooldownTime>
       </li>
     </tools>
   </ThingDef>
 
   <ThingDef ParentName="BaseRSMeleeWeapon_Sharp">
-    <defName>MeleeWeapon_SteelHalberd</defName>
-    <label>Steel halberd</label>
-    <description>A steel halberd.</description>
+    <defName>MeleeWeapon_MithrilHalberd</defName>
+    <label>Mithril halberd</label>
+    <description>A mithril halberd.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
-      <texPath>Things/Item/Weapons/Steel/Steel_halberd</texPath>
+      <texPath>Things/Item/Weapons/Mithril/Mithril_halberd</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <techLevel>Industrial</techLevel>
+    <techLevel>Spacer</techLevel>
     <weaponTags>
-      <li>IndustrialMeleeAdvanced</li>
+      <li>SpacerMeleeAdvanced</li>
     </weaponTags>
     <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
     <statBases>
-      <MarketValue>1000</MarketValue>
-      <Mass>3.175</Mass>
+      <MarketValue>2600</MarketValue>
+      <Mass>2.721</Mass>
     </statBases>
     <relicChance>2</relicChance>
     <comps>
       <li Class="SkillRestrictions.SkillCompProperties">
         <skillDef>Melee</skillDef>
-        <level>1</level>
+        <level>4</level>
       </li>
     </comps>
     <tools>
@@ -941,15 +941,15 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>34</power>
+        <power>51</power>
         <cooldownTime>4.2</cooldownTime>
       </li>
       <li>
         <label>Swipe</label>
         <capacities>
-          <li>StCutab</li>
+          <li>Cut</li>
         </capacities>
-        <power>39</power>
+        <power>57</power>
         <cooldownTime>4.2</cooldownTime>
       </li>
       <li>
@@ -957,7 +957,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>34</power>
+        <power>51</power>
         <cooldownTime>4.2</cooldownTime>
       </li>
     </tools>
