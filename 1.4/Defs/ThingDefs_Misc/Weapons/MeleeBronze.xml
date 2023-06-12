@@ -71,7 +71,7 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp">
-    <defName>MeleeWeapon_BronzeAxe</defName>
+    <defName>MeleeWeapon_Axe</defName>
     <label>Bronze axe</label>
     <techLevel>Neolithic</techLevel>
     <description>A woodcutter's axe.</description>

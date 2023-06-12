@@ -1,0 +1,615 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>CopperOre</defName>
+    <label>copper ore</label>
+    <description>This needs refining.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Ore/Copper_ore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>3</MarketValue>
+      <Mass>2.267</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>1.6</deepCommonality>
+    <deepCountPerPortion>10</deepCountPerPortion>
+    <deepLumpSizeRange>1~11</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>TinOre</defName>
+    <label>tin ore</label>
+    <description>This needs refining.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Ore/Tin_ore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>3</MarketValue>
+      <Mass>2.267</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>1.7</deepCommonality>
+    <deepCountPerPortion>10</deepCountPerPortion>
+    <deepLumpSizeRange>1~11</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>BluriteOre</defName>
+    <label>blurite ore</label>
+    <description>Definitely blue.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Ore/Blurite_ore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>3</MarketValue>
+      <Mass>2.267</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>IronOre</defName>
+    <label>iron ore</label>
+    <description>This needs refining.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Ore/Iron_ore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>17</MarketValue>
+      <Mass>2.267</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>3.1</deepCommonality>
+    <deepCountPerPortion>10</deepCountPerPortion>
+    <deepLumpSizeRange>1~26</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>SilverOre</defName>
+    <label>silver ore</label>
+    <description>This needs refining.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Ore/Silver_ore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>75</MarketValue>
+      <Mass>2.267</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>1.4</deepCommonality>
+    <deepCountPerPortion>10</deepCountPerPortion>
+    <deepLumpSizeRange>1~12</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>CoalOre</defName>
+    <label>coal</label>
+    <description>This needs refining.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Ore/Coal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>45</MarketValue>
+      <Mass>2.267</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>3.8</deepCommonality>
+    <deepCountPerPortion>10</deepCountPerPortion>
+    <deepLumpSizeRange>1~51</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>GoldOre</defName>
+    <label>gold ore</label>
+    <description>This needs refining.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Ore/Gold_ore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>150</MarketValue>
+      <Mass>2.267</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>1.3</deepCommonality>
+    <deepCountPerPortion>10</deepCountPerPortion>
+    <deepLumpSizeRange>1~14</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>MithrilOre</defName>
+    <label>mithril ore</label>
+    <description>This needs refining.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Ore/Mithril_ore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>162</MarketValue>
+      <Mass>1.814</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>2.1</deepCommonality>
+    <deepCountPerPortion>10</deepCountPerPortion>
+    <deepLumpSizeRange>1~16</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>AdamantiteOre</defName>
+    <label>adamantite ore</label>
+    <description>This needs refining.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Ore/Adamantite_ore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>400</MarketValue>
+      <Mass>2.721</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>1.9</deepCommonality>
+    <deepCountPerPortion>10</deepCountPerPortion>
+    <deepLumpSizeRange>1~13</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>RuniteOre</defName>
+    <label>runite ore</label>
+    <description>This needs refining.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Ore/Runite_ore</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>3200</MarketValue>
+      <Mass>2.267</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>1.2</deepCommonality>
+    <deepCountPerPortion>10</deepCountPerPortion>
+    <deepLumpSizeRange>1~4</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Jade</defName>
+    <label>jade</label>
+    <description>A hard, green stone. Because of its beauty and rarity, jade is often used for ornaments and decorations. Its hardness and density also makes it a good material for blunt weapons.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Jade</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>5</MarketValue>
+      <Mass>0.5</Mass>
+      <StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.45</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.54</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <BluntDamageMultiplier>1.5</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>0.5</deepCommonality>
+    <deepCountPerPortion>15</deepCountPerPortion>
+    <deepLumpSizeRange>1~4</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>0.05</commonality>
+      <color>(85,118,69)</color>
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>10</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>2.5</MaxHitPoints>
+        <Beauty>2.5</Beauty>
+        <Flammability>0</Flammability>
+      </statFactors>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="UglyRockBase" Name="SandstoneBase">
+    <defName>Sandstone</defName>
+    <label>sandstone</label>
+    <description>A sedimentary rock composed of sand particles compressed together.</description>
+    <graphicData>
+      <color>(175,135,44)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>400</MaxHitPoints>
+    </statBases>
+    <building>
+      <mineableThing>ChunkSandstone</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedSandstone</smoothedThing>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkSandstone</defName>
+    <label>sandstone chunk</label>
+    <graphicData>
+      <color>(175,135,44)</color>
+    </graphicData>
+    <statBases>
+      <Mass>20</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksSandstone>20</BlocksSandstone>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksSandstone</defName>
+    <label>sandstone blocks</label>
+    <description>Blocks of solid sandstone. Sandstone is a relatively soft rock and chips easily.</description>
+    <graphicData>
+      <color>(173,133,80)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>0.5</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(173,133,80)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>sandstone</stuffAdjective>
+      <statFactors>
+        <Beauty>1.1</Beauty>  
+        <MaxHitPoints>1.4</MaxHitPoints>
+        <WorkToBuild>5.0</WorkToBuild>
+        <WorkToMake>1.1</WorkToMake>
+      </statFactors>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="UglyRockBase" Name="GraniteBase">
+    <defName>Granite</defName>
+    <label>granite</label>
+    <description>A very hard igneous rock.</description>
+    <graphicData>
+      <color>(198,153,92)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>900</MaxHitPoints>
+    </statBases>
+    <building>
+      <mineableThing>ChunkGranite</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedGranite</smoothedThing>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkGranite</defName>
+    <label>granite chunk</label>
+    <graphicData>
+      <color>(216,176,143)</color>
+    </graphicData>
+    <statBases>
+      <Mass>25</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksGranite>20</BlocksGranite>  
+    </butcherProducts>
+  </ThingDef>
+
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksGranite</defName>
+    <label>granite blocks</label>
+    <description>Blocks of solid granite. Granite is a very hard stone.</description>
+    <graphicData>
+      <color>(216,176,143)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1.25</Mass>
+      <SharpDamageMultiplier>0.65</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(216,176,143)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>granite</stuffAdjective>
+      <statFactors>
+        <MaxHitPoints>1.7</MaxHitPoints>
+      </statFactors>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="UglyRockBase" Name="LimestoneBase">
+    <defName>Limestone</defName>
+    <label>limestone</label>
+    <description>A sedimentary rock formed from the compacted remains of ancient seashells.</description>
+    <graphicData>
+      <color>(163,162,150)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>700</MaxHitPoints>
+    </statBases>
+    <building>
+      <mineableThing>ChunkLimestone</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedLimestone</smoothedThing>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkLimestone</defName>
+    <label>limestone chunk</label>
+    <graphicData>
+      <color>(168,168,155)</color>
+    </graphicData>
+    <statBases>
+      <Mass>22</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksLimestone>20</BlocksLimestone>
+    </butcherProducts>
+  </ThingDef>
+
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksLimestone</defName>
+    <label>limestone blocks</label>
+    <description>Blocks of solid limestone.</description>
+    <graphicData>
+      <color>(168,168,155)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1.1</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(168,168,155)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>limestone</stuffAdjective>
+      <statFactors>
+        <MaxHitPoints>1.55</MaxHitPoints>
+      </statFactors>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="UglyRockBase" Name="MarbleBase">
+    <defName>Marble</defName>
+    <label>marble</label>
+    <description>A soft metamorphic rock.</description>
+    <graphicData>
+      <color>(203,201,188)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>450</MaxHitPoints>
+      <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkMarble</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedMarble</smoothedThing>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkMarble</defName>
+    <label>marble chunk</label>
+    <graphicData>
+      <color>(203,201,188)</color>
+    </graphicData>
+    <statBases>
+      <Mass>25</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksMarble>20</BlocksMarble>
+    </butcherProducts>
+  </ThingDef>
+
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksMarble</defName>
+    <label>marble blocks</label>
+    <description>Blocks of solid marble. Marble is a soft, beautiful stone, known for being easy to sculpt.</description>
+    <graphicData>
+      <color>(203,201,188)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1.25</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(203,201,188)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>marble</stuffAdjective>
+      <statFactors>
+        <Beauty>1.35</Beauty>
+        <MaxHitPoints>1.2</MaxHitPoints>
+        <WorkToBuild>5.5</WorkToBuild>
+        <WorkToMake>1.15</WorkToMake>
+      </statFactors>
+      <statOffsets>
+        <Beauty>1</Beauty>
+      </statOffsets>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="UglyRockBase" Name="SlateBase">
+    <defName>Slate</defName>
+    <label>slate</label>
+    <description>A dark-colored metamorphic rock. Its fine layers are emblematic of slaty cleavage.</description>
+    <graphicData>
+      <color>(82,87,89)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+    </statBases>
+    <building>
+      <mineableThing>ChunkSlate</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedSlate</smoothedThing>
+    </building>
+    
+  </ThingDef>
+
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkSlate</defName>
+    <label>slate chunk</label>
+    <graphicData>
+      <color>(82,87,89)</color>
+    </graphicData>
+    <statBases>
+      <Mass>18</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksSlate>20</BlocksSlate>
+    </butcherProducts>
+  </ThingDef>
+
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksSlate</defName>
+    <label>slate blocks</label>
+    <description>Blocks of solid slate. A dull-looking rock that chips easily.</description>
+    <graphicData>
+      <color>(82,87,89)</color>
+    </graphicData>
+    <statBases>
+      <Mass>0.9</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(82,87,89)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>slate</stuffAdjective>
+      <statFactors>
+        <Beauty>1.1</Beauty>
+        <MaxHitPoints>1.3</MaxHitPoints>
+      </statFactors>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+  </ThingDef>
+
+
+</Defs>

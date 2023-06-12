@@ -369,7 +369,7 @@
       <WorkToMake>300</WorkToMake>
       <Mass>1.814</Mass>
     </statBases>
-    <relicChance>2</relicChance>s
+    <relicChance>2</relicChance>
     <costList>
       <Iron>2</Iron>
     </costList>
@@ -668,7 +668,7 @@
     </recipeMaker>
     <comps>
       <li Class="SkillRestrictions.SkillCompProperties">
-        <skillDef>Melee</skillDef>
+        <skillDef>stregnth</skillDef>
         <level>0</level>
       </li>
     </comps>
